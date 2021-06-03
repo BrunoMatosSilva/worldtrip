@@ -38,9 +38,12 @@ export default function Slider() {
                         textAlign="center"
                         bgPosition="center"
                     >
-                        <Link href="continent/europe">
-                            <a>
+                        <Link href="continent/europe" >
+                            <a >
                                 <Heading
+                                    _hover={{
+                                        color: "yellow.300"
+                                    }}
                                     fontSize={["3xl", "4xl", "5xl"]}
                                     color="gray.100"
                                     fontWeight="bold"
@@ -75,6 +78,9 @@ export default function Slider() {
                         <Link href="continent/europe">
                             <a>
                                 <Heading
+                                    _hover={{
+                                        color: "yellow.300"
+                                    }}
                                     fontSize={["3xl", "4xl", "5xl"]}
                                     color="gray.100"
                                     fontWeight="bold"
