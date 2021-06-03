@@ -38,6 +38,7 @@ export default function Infos() {
                         <PopoverTrigger>
                             <span>
                                 <Icon
+                                display={["none", "none", "block"]}
                                 cursor="pointer" 
                                 as={RiInformationLine} 
                                 ml="1" 
